@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6F196CC11874CCD4000FF636 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F196CC01874CCD4000FF636 /* libsqlite3.0.dylib */; };
+		6F196CC31874CD28000FF636 /* MusicQuiz.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 6F196CC21874CD28000FF636 /* MusicQuiz.sqlite */; };
+		6F196CCC1874CF17000FF636 /* SettingsHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F196CCB1874CF17000FF636 /* SettingsHandler.m */; };
+		6F196CD11874D461000FF636 /* Setting.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F196CD01874D461000FF636 /* Setting.m */; };
+		6F765998171F45D60033E990 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F765997171F45D60033E990 /* MediaPlayer.framework */; };
 		6FBA559D171DB3F500A4D6C4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FBA559C171DB3F500A4D6C4 /* UIKit.framework */; };
 		6FBA559F171DB3F500A4D6C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FBA559E171DB3F500A4D6C4 /* Foundation.framework */; };
 		6FBA55A1171DB3F500A4D6C4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FBA55A0171DB3F500A4D6C4 /* CoreGraphics.framework */; };
@@ -26,9 +31,25 @@
 		6FBA55C7171DB3F600A4D6C4 /* MusicQuizFirstViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6FBA55C5171DB3F600A4D6C4 /* MusicQuizFirstViewController_iPad.xib */; };
 		6FBA55CA171DB3F600A4D6C4 /* MusicQuizSecondViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6FBA55C8171DB3F600A4D6C4 /* MusicQuizSecondViewController_iPhone.xib */; };
 		6FBA55CD171DB3F600A4D6C4 /* MusicQuizSecondViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6FBA55CB171DB3F600A4D6C4 /* MusicQuizSecondViewController_iPad.xib */; };
+		6FBA55D8171DC61200A4D6C4 /* MusicQuizSettingsViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6FBA55D7171DC61200A4D6C4 /* MusicQuizSettingsViewController_iPhone.xib */; };
+		6FBA55DB171DC66800A4D6C4 /* MusicQuizSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FBA55DA171DC66800A4D6C4 /* MusicQuizSettingsViewController.m */; };
+		6FBA55E1171DD07C00A4D6C4 /* MusicQuizStatistikViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FBA55DF171DD07C00A4D6C4 /* MusicQuizStatistikViewController.m */; };
+		6FBA55E2171DD07C00A4D6C4 /* MusicQuizStatistikViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6FBA55E0171DD07C00A4D6C4 /* MusicQuizStatistikViewController_iPad.xib */; };
+		6FBA55E4171DD0A900A4D6C4 /* MusicQuizStatistikViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6FBA55E3171DD0A900A4D6C4 /* MusicQuizStatistikViewController_iPhone.xib */; };
+		6FC8D88E17248CDC0050075B /* MusicQuizSelectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FC8D88C17248CDC0050075B /* MusicQuizSelectionViewController.m */; };
+		6FC8D88F17248CDC0050075B /* MusicQuizSelectionViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6FC8D88D17248CDC0050075B /* MusicQuizSelectionViewController_iPhone.xib */; };
+		6FC8D8931725AEE70050075B /* MusicQuizNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FC8D8911725AEE60050075B /* MusicQuizNavigationViewController.m */; };
+		6FC8D8941725AEE70050075B /* MusicNavigationViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6FC8D8921725AEE70050075B /* MusicNavigationViewController_iPhone.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6F196CC01874CCD4000FF636 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		6F196CC21874CD28000FF636 /* MusicQuiz.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; name = MusicQuiz.sqlite; path = MusicQuiz/MusicQuiz.sqlite; sourceTree = "<group>"; };
+		6F196CC81874CEC6000FF636 /* Setting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Setting.h; sourceTree = "<group>"; };
+		6F196CCA1874CF17000FF636 /* SettingsHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsHandler.h; sourceTree = "<group>"; };
+		6F196CCB1874CF17000FF636 /* SettingsHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsHandler.m; sourceTree = "<group>"; };
+		6F196CD01874D461000FF636 /* Setting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Setting.m; sourceTree = "<group>"; };
+		6F765997171F45D60033E990 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 		6FBA5599171DB3F500A4D6C4 /* MusicQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FBA559C171DB3F500A4D6C4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		6FBA559E171DB3F500A4D6C4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -54,6 +75,21 @@
 		6FBA55C6171DB3F600A4D6C4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MusicQuizFirstViewController_iPad.xib; sourceTree = "<group>"; };
 		6FBA55C9171DB3F600A4D6C4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MusicQuizSecondViewController_iPhone.xib; sourceTree = "<group>"; };
 		6FBA55CC171DB3F600A4D6C4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MusicQuizSecondViewController_iPad.xib; sourceTree = "<group>"; };
+		6FBA55D7171DC61200A4D6C4 /* MusicQuizSettingsViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MusicQuizSettingsViewController_iPhone.xib; sourceTree = "<group>"; };
+		6FBA55D9171DC66800A4D6C4 /* MusicQuizSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicQuizSettingsViewController.h; sourceTree = "<group>"; };
+		6FBA55DA171DC66800A4D6C4 /* MusicQuizSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicQuizSettingsViewController.m; sourceTree = "<group>"; };
+		6FBA55DE171DD07C00A4D6C4 /* MusicQuizStatistikViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicQuizStatistikViewController.h; sourceTree = "<group>"; };
+		6FBA55DF171DD07C00A4D6C4 /* MusicQuizStatistikViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicQuizStatistikViewController.m; sourceTree = "<group>"; };
+		6FBA55E0171DD07C00A4D6C4 /* MusicQuizStatistikViewController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MusicQuizStatistikViewController_iPad.xib; sourceTree = "<group>"; };
+		6FBA55E3171DD0A900A4D6C4 /* MusicQuizStatistikViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MusicQuizStatistikViewController_iPhone.xib; sourceTree = "<group>"; };
+		6FBA55E5171F177300A4D6C4 /* MusicQuizLogic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicQuizLogic.h; sourceTree = "<group>"; };
+		6FBA55E6171F177300A4D6C4 /* MusicQuizLogic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicQuizLogic.m; sourceTree = "<group>"; };
+		6FC8D88B17248CDC0050075B /* MusicQuizSelectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicQuizSelectionViewController.h; sourceTree = "<group>"; };
+		6FC8D88C17248CDC0050075B /* MusicQuizSelectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicQuizSelectionViewController.m; sourceTree = "<group>"; };
+		6FC8D88D17248CDC0050075B /* MusicQuizSelectionViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MusicQuizSelectionViewController_iPhone.xib; sourceTree = "<group>"; };
+		6FC8D8901725AEE60050075B /* MusicQuizNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicQuizNavigationViewController.h; sourceTree = "<group>"; };
+		6FC8D8911725AEE60050075B /* MusicQuizNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicQuizNavigationViewController.m; sourceTree = "<group>"; };
+		6FC8D8921725AEE70050075B /* MusicNavigationViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MusicNavigationViewController_iPhone.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +97,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F196CC11874CCD4000FF636 /* libsqlite3.0.dylib in Frameworks */,
+				6F765998171F45D60033E990 /* MediaPlayer.framework in Frameworks */,
 				6FBA559D171DB3F500A4D6C4 /* UIKit.framework in Frameworks */,
 				6FBA559F171DB3F500A4D6C4 /* Foundation.framework in Frameworks */,
 				6FBA55A1171DB3F500A4D6C4 /* CoreGraphics.framework in Frameworks */,
@@ -70,9 +108,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6F196CC41874CD3A000FF636 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6F196CD01874D461000FF636 /* Setting.m */,
+				6F196CC81874CEC6000FF636 /* Setting.h */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		6F196CC91874CEF1000FF636 /* DataAccess */ = {
+			isa = PBXGroup;
+			children = (
+				6F196CCA1874CF17000FF636 /* SettingsHandler.h */,
+				6F196CCB1874CF17000FF636 /* SettingsHandler.m */,
+			);
+			name = DataAccess;
+			sourceTree = "<group>";
+		};
 		6FBA5590171DB3F500A4D6C4 = {
 			isa = PBXGroup;
 			children = (
+				6F196CC91874CEF1000FF636 /* DataAccess */,
+				6F196CC41874CD3A000FF636 /* Model */,
+				6F196CC21874CD28000FF636 /* MusicQuiz.sqlite */,
+				6F765997171F45D60033E990 /* MediaPlayer.framework */,
 				6FBA55A2171DB3F500A4D6C4 /* MusicQuiz */,
 				6FBA559B171DB3F500A4D6C4 /* Frameworks */,
 				6FBA559A171DB3F500A4D6C4 /* Products */,
@@ -90,6 +150,7 @@
 		6FBA559B171DB3F500A4D6C4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6F196CC01874CCD4000FF636 /* libsqlite3.0.dylib */,
 				6FBA559C171DB3F500A4D6C4 /* UIKit.framework */,
 				6FBA559E171DB3F500A4D6C4 /* Foundation.framework */,
 				6FBA55A0171DB3F500A4D6C4 /* CoreGraphics.framework */,
@@ -115,6 +176,21 @@
 				6FBA55C8171DB3F600A4D6C4 /* MusicQuizSecondViewController_iPhone.xib */,
 				6FBA55CB171DB3F600A4D6C4 /* MusicQuizSecondViewController_iPad.xib */,
 				6FBA55A3171DB3F500A4D6C4 /* Supporting Files */,
+				6FBA55D7171DC61200A4D6C4 /* MusicQuizSettingsViewController_iPhone.xib */,
+				6FBA55D9171DC66800A4D6C4 /* MusicQuizSettingsViewController.h */,
+				6FBA55DA171DC66800A4D6C4 /* MusicQuizSettingsViewController.m */,
+				6FBA55DE171DD07C00A4D6C4 /* MusicQuizStatistikViewController.h */,
+				6FBA55DF171DD07C00A4D6C4 /* MusicQuizStatistikViewController.m */,
+				6FBA55E0171DD07C00A4D6C4 /* MusicQuizStatistikViewController_iPad.xib */,
+				6FBA55E3171DD0A900A4D6C4 /* MusicQuizStatistikViewController_iPhone.xib */,
+				6FBA55E5171F177300A4D6C4 /* MusicQuizLogic.h */,
+				6FBA55E6171F177300A4D6C4 /* MusicQuizLogic.m */,
+				6FC8D88B17248CDC0050075B /* MusicQuizSelectionViewController.h */,
+				6FC8D88C17248CDC0050075B /* MusicQuizSelectionViewController.m */,
+				6FC8D88D17248CDC0050075B /* MusicQuizSelectionViewController_iPhone.xib */,
+				6FC8D8901725AEE60050075B /* MusicQuizNavigationViewController.h */,
+				6FC8D8911725AEE60050075B /* MusicQuizNavigationViewController.m */,
+				6FC8D8921725AEE70050075B /* MusicNavigationViewController_iPhone.xib */,
 			);
 			path = MusicQuiz;
 			sourceTree = "<group>";
@@ -189,14 +265,20 @@
 				6FBA55AF171DB3F500A4D6C4 /* Default.png in Resources */,
 				6FBA55B1171DB3F500A4D6C4 /* Default@2x.png in Resources */,
 				6FBA55B3171DB3F500A4D6C4 /* Default-568h@2x.png in Resources */,
+				6F196CC31874CD28000FF636 /* MusicQuiz.sqlite in Resources */,
 				6FBA55B8171DB3F500A4D6C4 /* first.png in Resources */,
 				6FBA55BA171DB3F600A4D6C4 /* first@2x.png in Resources */,
 				6FBA55BF171DB3F600A4D6C4 /* second.png in Resources */,
 				6FBA55C1171DB3F600A4D6C4 /* second@2x.png in Resources */,
+				6FBA55E2171DD07C00A4D6C4 /* MusicQuizStatistikViewController_iPad.xib in Resources */,
 				6FBA55C4171DB3F600A4D6C4 /* MusicQuizFirstViewController_iPhone.xib in Resources */,
 				6FBA55C7171DB3F600A4D6C4 /* MusicQuizFirstViewController_iPad.xib in Resources */,
 				6FBA55CA171DB3F600A4D6C4 /* MusicQuizSecondViewController_iPhone.xib in Resources */,
 				6FBA55CD171DB3F600A4D6C4 /* MusicQuizSecondViewController_iPad.xib in Resources */,
+				6FBA55D8171DC61200A4D6C4 /* MusicQuizSettingsViewController_iPhone.xib in Resources */,
+				6FBA55E4171DD0A900A4D6C4 /* MusicQuizStatistikViewController_iPhone.xib in Resources */,
+				6FC8D88F17248CDC0050075B /* MusicQuizSelectionViewController_iPhone.xib in Resources */,
+				6FC8D8941725AEE70050075B /* MusicNavigationViewController_iPhone.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,6 +293,12 @@
 				6FBA55AD171DB3F500A4D6C4 /* MusicQuizAppDelegate.m in Sources */,
 				6FBA55B6171DB3F500A4D6C4 /* MusicQuizFirstViewController.m in Sources */,
 				6FBA55BD171DB3F600A4D6C4 /* MusicQuizSecondViewController.m in Sources */,
+				6FBA55DB171DC66800A4D6C4 /* MusicQuizSettingsViewController.m in Sources */,
+				6F196CCC1874CF17000FF636 /* SettingsHandler.m in Sources */,
+				6F196CD11874D461000FF636 /* Setting.m in Sources */,
+				6FBA55E1171DD07C00A4D6C4 /* MusicQuizStatistikViewController.m in Sources */,
+				6FC8D88E17248CDC0050075B /* MusicQuizSelectionViewController.m in Sources */,
+				6FC8D8931725AEE70050075B /* MusicQuizNavigationViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,6 +412,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MusicQuiz/MusicQuiz-Prefix.pch";
 				INFOPLIST_FILE = "MusicQuiz/MusicQuiz-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -335,6 +424,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MusicQuiz/MusicQuiz-Prefix.pch";
 				INFOPLIST_FILE = "MusicQuiz/MusicQuiz-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -359,6 +449,7 @@
 				6FBA55D2171DB3F600A4D6C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
